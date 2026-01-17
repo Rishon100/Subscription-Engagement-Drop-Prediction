@@ -2,6 +2,9 @@
 
 This project predicts whether a subscription user's engagement is likely to **drop** based on their recent activity and subscription-related behavior.
 
+## 🌐 Live Demo
+🔗 Streamlit App: https://subscription-engagement-drop-predictiongit-jsuwcxe5cjcnfoaha8h.streamlit.app/
+
 ✅ Output:
 - ✅ Engagement will **NOT** drop (Safe User)
 - ❌ Engagement **WILL** drop (High Risk User)
