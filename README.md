@@ -92,6 +92,9 @@ Example:
 
 ---
 
+## 🧠 Explainability (SHAP)
+This project uses **SHAP (SHapley Additive exPlanations)** to show the **top reasons behind each prediction**, helping users understand why engagement drop risk is high or low.
+
 ## 📁 Project Structure
 
 ```txt
