@@ -100,13 +100,16 @@ This project uses **SHAP (SHapley Additive exPlanations)** to show the **top rea
 ```txt
 SubscriptionDropPrediction/
 │
-├── app.py                    # Streamlit app
+├── app.py                    # Streamlit app (with drop risk + SHAP explainability)
 │
-├── train_v1.py               # Basic dataset + training
-├── train_v2.py               # Improved dataset + training (Best model)
+├── main_v1.py                # Basic dataset + training
+├── main_v2.py                # Improved dataset + training (Best model)
 │
 ├── predict_v1.py             # Predict using v1 model
 ├── predict_v2.py             # Predict using v2 model
+│
+├── explain.py                # Basic explainability test
+├── explain_v2.py             # SHAP explainability using background data
 │
 ├── models/
 │   ├── engagement_drop_model_v1.pkl
@@ -123,8 +126,7 @@ SubscriptionDropPrediction/
 pip install -r requirements.txt
 
 # 2) Train the model (Version 2 recommended)
-python train_v2.py
+python main_v2.py
 
 # 3) Run the Streamlit app
 streamlit run app.py
-```
